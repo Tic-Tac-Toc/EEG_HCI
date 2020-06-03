@@ -75,8 +75,8 @@ class ElectrodesSynchroWidget(QWidget):
         self.drawElectrode(qp, QPoint(self.center.x() - self.rx - 20, self.center.y()), "A1") #left ear
         self.drawElectrode(qp, QPoint(self.center.x() + self.rx + 20, self.center.y()), "A2") #right ear
 
-        #for key in self.electrodesPos.keys():
-            #self.drawElectrode(qp, self.electrodesPos[key], key)
+        for key in self.electrodesPos.keys():
+            self.drawElectrode(qp,self.electrodesPos[key][0], key)
         
 
         qp.end()
