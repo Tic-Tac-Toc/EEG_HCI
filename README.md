@@ -1,9 +1,5 @@
 # EEG_HCI
 Interface to display EEG signals and the synchronization between their electrodes.
-
-<<<<<<< HEAD
-Created and developed as part of Télécom SudParis Cassiopée 2019-2020 project.
-=======
 Created and developed as part of Télécom SudParis Cassiopée 2019-2020 project.
 
 The purpose of this application is to enable the visualization of data from EEG signals.
